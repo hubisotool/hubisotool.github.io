@@ -1,0 +1,30 @@
+body,html{
+    margin:0;
+    height: 100%;
+}
+
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    color: rgba(255,255,255,1);
+}
+
+.appName, .platformName, .appVersion{
+    text-align: center;
+}
+
+.platformIcon img{
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.boxAppName{
+    margin-top: 40px;
+}
+
+.boxAppVersion{
+    margin-bottom: 80px;
+}
