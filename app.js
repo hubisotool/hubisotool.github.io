@@ -13,6 +13,12 @@ var
                 window.location.href = url;
             })
         }
+        $scope.dwnldWinInstaller = function(){
+            api.getLatestVersionNumber().then(function(ver){
+                var url = "https://github.com/hubisotool/hubisotool/releases/download/"+ver+"/hubisotool-"+$scope.winver+"-installer.exe";
+                window.location.href = url;
+            })
+        }
     }])
     .factory('site',['$http',function($http){
         var _gut = {};

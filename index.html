@@ -14,17 +14,17 @@
     <div class="col-md-6">
         <div class="row boxAppName">
             <div class="col-xs-12 appName">
-                <h1>HubISO Tool</h1>
+                <img src="logo_white_pre_alpha.png" height="80px">
             </div>
         </div>
-        <div class="row boxAppVersion">
+        <div class="row boxAppVersion" style="margin-top:20px;">
             <div class="col-xs-12 appVersion">
                 <img src="https://badge.fury.io/gh/hubisotool%2Fhubisotool.svg" alt="Version" height="20">
                 <img src="https://travis-ci.org/hubisotool/hubisotool.svg" alt="Build status" height="20">
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-4">
+            <div class="col-xs-4" style="opacity:0">
                 <div class="row">
                     <div class="col-xs-12 platformIcon">
                         <img src="https://slack.global.ssl.fastly.net/0180/img/mac_icon@2x.png" alt=""/>
@@ -74,7 +74,14 @@
                     </div>
                     <div class="col-xs-3"></div>
                 </div>
-                <div class="row">
+                <div class="row" style="margin-top:10px;">
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-6">
+                        <button ng-click="dwnldWinInstaller()" type="button" class="btn btn-warning btn-block">Installer</button>
+                    </div>
+                    <div class="col-xs-3"></div>
+                </div>
+                <div class="row" style="margin-top:10px;">
                     <div class="col-xs-3"></div>
                     <div class="col-xs-6">
                         <button ng-click="dwnldWin()" type="button" class="btn btn-success btn-block">zip</button>
@@ -82,7 +89,7 @@
                     <div class="col-xs-3"></div>
                 </div>
             </div>
-            <div class="col-xs-4">
+            <div class="col-xs-4" style="opacity:0">
                 <div class="row">
                     <div class="col-xs-12 platformIcon">
                         <img src="http://design.ubuntu.com/wp-content/uploads/logo-ubuntu_cof-orange-hex.png" alt=""/>
